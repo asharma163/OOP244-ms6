@@ -38,7 +38,7 @@ namespace sict {
 	}
 	void AidApp::loadRecs() {
 		char g;
-		int m_readIndex = 0;                              //JATIN HELPED ME IN CODING THIS FUNCTION AS I DID NOT WHY ios::in IS USED.
+		int m_readIndex = 0;                             
 		datafile_.open(filename_, ios::in);
 		if (datafile_.fail()) {
 			
